@@ -1,0 +1,72 @@
+#app-content-right .welcomemsg {text-align: right;}
+#app-content-right .welcomemsg a {text-decoration: underline; font-weight: bold;}
+#adminsearchbtn, #excelextract {width: 100%; margin-right: 0px !important;margin-left: 0px !important;}
+#admin_search {margin-top: 5px;}
+#admininterface h2 {font-size: 2em; margin:0px;}
+#admininterface li.active a {background-color: #346488; color: white;}
+#admininterface li.active a:hover {background-color: #346488 !important; text-decoration:underline;}
+.tab-pane table {display:none;}
+.tab-pane table tr td:last-child {text-align: center !important;}
+.tab-pane table button {}
+#recyclebin table button {width: 25%; min-width:120px;}
+#recyclebin table button:last-child {width: 40%;min-width:190px;}
+.tab-pane.fade.active table {display:table;}
+#admininterface tr.statusupdate td {background-color: lightyellow !important;}
+#familysurveyform h2 {display: none;}
+#serviceModalLabel {font-size: 2em !important;}
+.btn-success {
+  background-color:#387f38;
+  border-color:#387f38;
+}
+.btn-info {
+  background-color:#207f9c;
+  border-color:#207f9c;
+}
+.btn-warning {
+  background-color:#9e620e;
+  border-color:#9e620e;
+}
+.btn-danger {
+  background-color:#c8312c;
+  border-color:#c8312c;
+}
+#custom-search-input{
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
+}
+
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
+::-ms-clear {
+  display: none;
+}
+
+.form-control-clear {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}
